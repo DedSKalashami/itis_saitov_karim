@@ -50,7 +50,7 @@ def process_logs():
         "login_time": None
     })
     try:
-        with open("itis21.txt", "r", encoding="utf-8") as f:
+        with open("HW_4april.txt", "r", encoding="utf-8") as f:
             lines = f.readlines()
     except FileNotFoundError:
         print("ошибка файл itis21.txt не найден")
